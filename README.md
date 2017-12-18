@@ -7,7 +7,7 @@ Drone plugin to build and publish Docker images to a container registry.
 Build the binary with the following commands:
 
 ```
-sh .drone.sh
+sh .drone.sh "github.com/fairfax-newsnow/drone-docker"
 ```
 
 ## Docker
