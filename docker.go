@@ -184,6 +184,7 @@ func commandBuild(build Build) *exec.Cmd {
 	args := []string{
 		"build",
 		"--rm=true",
+                "--no-cache",
 		"-f", build.Dockerfile,
 		"-t", build.Name,
 	}
